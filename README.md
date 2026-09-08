@@ -81,7 +81,3 @@ python main.py
 - **Testes de memória e segurança:** documentados nos logs de execução e no `relatorio_modelos.md`
 - **Relatório de evolução (PDF):** *(a ser adicionado)*
 - **Identificação da equipe:** *(arquivo `.txt` a ser adicionado)*
-
-## Equipe
-
-*(nome, RM e responsabilidade de cada integrante — a preencher)*
