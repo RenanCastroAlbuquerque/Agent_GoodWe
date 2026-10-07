@@ -1,4 +1,16 @@
-# GoodWe Charge Assistant — Sprint 03
+<div align="center">
+
+# 🔌 GoodWe Charge Assistant
+
+**Agente conversacional com LangGraph, memória de sessão e guardrails — Sprint 03 do EV Challenge (FIAP · GoodWe)**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq" />
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+
+</div>
 
 Chatbot conversacional para suporte a carregadores elétricos e eletropostos GoodWe, desenvolvido para o EV Challenge — GoodWe. Nesta sprint, o núcleo conversacional foi refatorado para utilizar um framework de agentes de IA, incorporando memória de sessão, guardrails de segurança e comparação entre modelos de linguagem.
 
@@ -71,6 +83,8 @@ python main.py
 ├── .env.example             # Modelo de variáveis de ambiente necessárias
 ├── .gitignore
 ├── relatorio_modelos.md     # Comparação entre Groq e Gemini (Bloco B)
+├── relatorio_evolucao.pdf   # Relatório de evolução da sprint
+├── identificacao_equipe.txt # Integrantes da equipe
 └── README.md
 ```
 
@@ -79,5 +93,5 @@ python main.py
 - **Código-fonte:** `main.py`
 - **Comparação de modelos:** [`relatorio_modelos.md`](./relatorio_modelos.md)
 - **Testes de memória e segurança:** documentados nos logs de execução e no `relatorio_modelos.md`
-- **Relatório de evolução (PDF):** *(a ser adicionado)*
-- **Identificação da equipe:** *(arquivo `.txt` a ser adicionado)*
+- **Relatório de evolução (PDF):** [`relatorio_evolucao.pdf`](./relatorio_evolucao.pdf)
+- **Identificação da equipe:** [`identificacao_equipe.txt`](./identificacao_equipe.txt)
